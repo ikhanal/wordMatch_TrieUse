@@ -1,0 +1,203 @@
+=~=~=~=~=~=~=~=~=~=~=~= PuTTY log 2014.07.27 14:28:57 =~=~=~=~=~=~=~=~=~=~=~=
+login as: ikhanal
+ikhanal@latcs6.cs.latrobe.edu.au's password: 
+Last login: Sun Jul 27 14:24:01 2014 from 149.144.220.52
+
+==== Student Disk Quotas ====
+
+	Please note: 
+	As of 23 April, 2014, students will be restricted to a disk quota of 200Mb 
+	or less on the latcs servers.
+
+	If you have a requirement to store larger files, please use your network drive
+	(Mapped as 'Z:' on windows desktops)
+
+=============================
+31> cd ALG
+32> ls[K[Kcd Assignment
+33> cd wordmatch
+34> ls
+fictionOutput.txt   fiction.txt      Report_WordMatch.pdf  TrieNode.java
+fictionOut.txt	    filanOutput.txt  Trie.class		   WordMatch.class
+fiction_putput.txt  MergeSort.class  Trie.java		   WordMatch.java
+fictionResult.txt   MergeSort.java   TrieNode.class
+35> javac *.java
+36> java WordMatch
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+r
+Enter file name
+fiction.txt
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+s
+Enter the searching pattern e.g. ma? or ?o?
+?o?
+The list of words :57 that match the pattern for '?o?'
+
+1.bob
+2.bow
+3.box
+4.boy
+5.cob
+6.col
+7.com
+8.cot
+9.cow
+10.dog
+11.don
+12.dot
+13.fog
+14.for
+15.god
+16.got
+17.hog
+18.hop
+19.hot
+20.how
+21.job
+22.joe
+23.joy
+24.log
+25.los
+26.lot
+27.low
+28.mob
+29.mos
+30.noi
+31.nom
+32.non
+33.nor
+34.not
+35.now
+36.pow
+37.rob
+38.rod
+39.ron
+40.rot
+41.row
+42.sof
+43.soi
+44.som
+45.son
+46.sos
+47.sot
+48.sow
+49.toe
+50.tom
+51.ton
+52.too
+53.top
+54.tow
+55.woe
+56.won
+57.you
+
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+s
+Enter the searching pattern e.g. ma? or ?o?
+abc def
+Word contains a whitespace in 'abc def'
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+s
+Enter the searching pattern e.g. ma? or ?o?
+?????l
+The list of words :40 that match the pattern for '?????l'
+
+1.actual
+2.animal
+3.armful
+4.barrel
+5.chisel
+6.dismal
+7.enamel
+8.feetll
+9.flannl
+10.generl
+11.gunnel
+12.hannel
+13.iiwell
+14.itwill
+15.joyful
+16.khanal
+17.lineal
+18.parcel
+19.passel
+20.pencil
+21.pistol
+22.pommel
+23.powell
+24.powful
+25.rascal
+26.reveal
+27.sadful
+28.samuel
+29.school
+30.shekel
+31.shovel
+32.signal
+33.thatll
+34.therll
+35.theyll
+36.travel
+37.tunnel
+38.wewell
+39.whatll
+40.yetill
+
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+s
+Enter the searching pattern e.g. ma? or ?o?
+sdfdsfsdf
+No words in the lexicon matched in your input
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+w
+Enter the file name 
+fictionLexi.txt
+Enter the character 'r', 's', 'w' or 'q'
+----------------------------------------------------------------
+r) Read in a text file and add the words in it to the lexicon
+s) Search for a word
+w) Write the lexican to a new file
+q) Quit
+----------------------------------------------------------------
+q
+Are you sure to exit the program ??(yes/no)
+yes
+Thank you for using this program !
+37> exit
+logout
